@@ -1,0 +1,93 @@
+@media print {
+   main {
+      display: none;
+      /* Because taking a picture of a website
+      is like stealing its soul...
+      Actually, I just didn't have anything in
+      mind for a media query. */
+   }
+}
+#navbar {
+   position: fixed;
+   width: 100%;
+   height: auto;
+   top: 0%;
+   left: 0%;
+}
+.navbar-link {
+   display: inline-block;
+   padding: 2px;
+   width: 30%;
+   height: auto;
+   background-color: hsl(300, 100%, 80%);
+   border-radius: 10px;
+}
+.navbar-link:link, .navbar-link:visited {
+   color: white;
+   text-decoration: none;
+}
+.navbar-link:hover {
+   background-color: hsl(300, 100%, 70%);
+}
+#welcome-section {
+   width: 100%;
+   height: 100vh;
+   color: white;
+}
+#welcome-section h1{
+   position: relative;
+   top: 35%;
+}
+#welcome-section p{
+   position: relative;
+   top: 45%;
+}
+#projects {
+   width: 100%;
+   height: 100vh;
+   padding: 30px 0px;
+   background-color: hsl(180, 100%, 80%);
+}
+.project-tile {
+   display: inline-block;
+   width: 30%;
+   height: 60%;
+   border-radius: 10px;
+   background-color: hsl(0, 100%, 80%);
+}
+.project-tile:hover {
+   background-color: hsl(0, 100%, 70%);
+}
+.project-tile a {
+   position: relative;
+   top: 50%;
+}
+#profile-link {
+   font-weight: oblique;
+   padding: 2px;
+   border-radius: 5px;
+}
+#profile-link:link, #profile-link:visited {
+   color: white;
+   text-decoration: none;
+}
+#profile-link:hover {
+   background-color: hsl(300, 100%, 80%);
+}
+main {
+   width: 100%;
+   border-radius: 10px;
+   background-color: hsl(200, 100%, 80%);
+   color: #666;
+   text-align: center;
+}
+footer {
+   color: #888;
+   padding: 20px;
+   border-radius: 0px 0px 10px 10px;
+   background-color: hsl(200, 100%, 80%);
+}
+a:link, a:visited, a:hover {
+   text-decoration: none;
+   color: white;
+}
